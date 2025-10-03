@@ -1,4 +1,11 @@
+# Research RAG Instruction Pack
 Research RAG Instruction Pack
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-Framework-orange)](https://www.langchain.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-black)](https://platform.openai.com/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hideyuki001/research-rag-instruction-pack/pulls)
 
 🚀 LangChain-based RAG framework for research & education
 This repository provides a minimal yet practical implementation of Retrieval-Augmented Generation (RAG) with LangChain.
