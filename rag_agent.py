@@ -51,7 +51,7 @@ Question: {question}
 Answer:"""
 
     prompt = PromptTemplate.from_template(TEMPLATE)
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.2)
+    llm = ChatOpenAI(model="gpt-4o", temperature=0.2)
 
     combine = create_stuff_documents_chain(llm, prompt)
     rag = create_retrieval_chain(retriever, combine)
