@@ -71,6 +71,8 @@ faiss-cpu
 numpy
 
 🔹 Usage Example
+![RAG Answer Screenshot](screenshot_rag_output_en.png)
+
 from rag_agent import rag
 
 response = rag.invoke({"question": "What are the key points of this PDF?"})
